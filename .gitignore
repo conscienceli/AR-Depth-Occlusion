@@ -12,3 +12,4 @@ AR-Depth-cpp/build/AR_DEPTH
 AR-Depth-cpp/build/cmake_install.cmake
 AR-Depth-cpp/build/CMakeCache.txt
 AR-Depth-cpp/build/Makefile
+temp/*
