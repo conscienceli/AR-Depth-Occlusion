@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import cv2
 
-file_dir = '../AR-Depth-cpp/output'
+file_dir = './AR-Depth-cpp/output'
 file_list = sorted(os.listdir(file_dir))
 depth_folder = './depth'
 

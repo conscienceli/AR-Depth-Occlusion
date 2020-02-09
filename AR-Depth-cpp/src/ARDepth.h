@@ -34,7 +34,7 @@ public:
     const double lambda_t = 0.01;
     const double lambda_s = 1;
     const int num_solver_iterations = 400;
-    const cv::Ptr<cv::DenseOpticalFlow> dis = cv::optflow::createOptFlow_DIS(2);
+    const cv::Ptr<cv::DenseOpticalFlow> dis = cv::optflow::createOptFlow_DeepFlow();
 
     cv::Mat GetFlow(const cv::Mat& image1, const cv::Mat& image2);
 
