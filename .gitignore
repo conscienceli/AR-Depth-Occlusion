@@ -1,0 +1,5 @@
+*.DS_Store
+video.MOV
+.vscode/*
+depth/*
+AR-Depth-cpp/*
