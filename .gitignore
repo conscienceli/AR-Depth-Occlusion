@@ -2,4 +2,12 @@
 video.MOV
 .vscode/*
 depth/*
-AR-Depth-cpp/*
+AR-Depth-cpp/CMakeFiles
+AR-Depth-cpp/build
+AR-Depth-cpp/CMakeCache.txt
+AR-Depth-cpp/*.cmake
+AR-Depth-cpp/AR_DEPTH
+AR-Depth-cpp/Makefile
+
+AR-Depth-cpp/output
+AR-Depth-cpp/sample_data
