@@ -62,5 +62,9 @@ for file_name in file_list:
         break
 cv2.destroyAllWindows()
 
-finals = [Image.open('./temp/'+s) for s in sorted(os.listdir('./temp'))]
+finals = []
+for s in sorted(os.listdir('./temp')):
+    with Image.open('./temp/'+s) as final:
+        final_copy = final.copy()
+        finals.append(final_copy)
 finals[0].save('pics/sample.gif', save_all=True, append_images=finals[1:], optimize=True, duration=40, loop=0)
